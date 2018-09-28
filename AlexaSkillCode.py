@@ -10,10 +10,10 @@ from flask import Flask
 from flask import request
 from flask import make_response
 import twitter
-api = twitter.Api(consumer_key='T9DV3cm4NPzJTNuxtyNU6DY6g',
-  consumer_secret='sNEgnkionSHG6rdajqAE4OuR3F3516ZhMKCXyZjtz5wQpyrm7m',
-    access_token_key='1011526422630993920-4pOso0vmNbZNrEJS4o87EppBNtnEvI',
-    access_token_secret='mwvRLydjcriFL2tahIU01bNZQJiW26S9JyqWJ36dYXwCd',
+api = twitter.Api(consumer_key='Your Code Here',
+  consumer_secret='Your Code Here',
+    access_token_key='Your Code Here',
+    access_token_secret='Your Code Here',
     tweet_mode='extended')
 
 # Flask app should start in global layout
